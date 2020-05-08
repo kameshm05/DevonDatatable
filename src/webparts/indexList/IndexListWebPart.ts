@@ -72,7 +72,7 @@ export default class IndexListWebPart extends BaseClientSideWebPart<IIndexListWe
     {
       $('#enterNotes').empty();
       $('#projectTable').hide();
-      $('#enterNotes').append('Please Enter ListName in Webpart property pane');
+      $('#enterNotes').append('Please Enter ListName in Webpart property pane')
     }
 
   }
